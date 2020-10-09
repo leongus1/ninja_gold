@@ -1,6 +1,7 @@
 *{
     /* text-align: center; */
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -51,10 +52,16 @@ p{
     width: 98%;
     border: 3px solid black;
     height: 100px;
-    /* overflow: scroll; */
+    padding: 5px 10px;
     overflow-y: scroll;
 }
 
 button{
     margin-top: 50px;
+}
+
+.hist{
+    display: block;
+    color: black;
+    margin: 5px 10px;
 }

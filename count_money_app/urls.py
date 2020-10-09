@@ -6,4 +6,5 @@ urlpatterns = [
     path('', views.index),
     path('process_money/', views.count),
     path('reset/', views.reset),
+    path('process_money/<str:location>/', views.count),
 ]
